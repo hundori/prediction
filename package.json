@@ -10,7 +10,11 @@
   "dependencies": {
     "next": "16.3.8",
     "react": "19.2.0",
-    "react-dom": "19.2.0"
+    "react-dom": "19.2.0",
+    "@x402/next": "2.28.0",
+    "@x402/core": "2.28.0",
+    "@x402/evm": "2.28.0",
+    "@x402/extensions": "2.28.0"
   },
   "devDependencies": {
     "typescript": "^5.9.3",
