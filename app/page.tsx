@@ -31,7 +31,7 @@ export default function Home(){
 
   return <main>
     <header className="hero">
-      <nav><b>KOREA DIGITAL FINANCE ENTRY INTELLIGENCE</b><span>Assessment · Evidence Rules · Legislative Watch · API</span></nav>
+      <nav><b>KOREA FINTECH ENTRY INTELLIGENCE</b><span>Assessment · Evidence Rules · Legislative Watch · API</span></nav>
       <div className="heroGrid">
         <section>
           <small>EVIDENCE-BASED REGULATORY INTELLIGENCE</small>
