@@ -2,7 +2,7 @@ export async function GET() {
   return Response.json({
     openapi: "3.1.0",
     info: {
-      title: "Korea Digital Finance Entry Intelligence API",
+      title: "Korea Fintech Entry Intelligence API",
       version: "1.0.0",
       description: "Decision-support API. Not legal advice. Inspect each rule's verification_status before reliance."
     },
@@ -20,7 +20,7 @@ export async function GET() {
       },
       "/api/v1/market-entry": {
         post: {
-          summary: "Preliminary Korea digital-finance market-entry assessment",
+          summary: "Preliminary Korea fintech market-entry assessment",
           requestBody: {
             required: true,
             content: {
