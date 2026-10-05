@@ -7,10 +7,10 @@ import c5 from "./rules-chunk-5";
 
 let cache: any[] | null = null;
 
-export function getRules() {
+export function getRules(): any[] {
   if (!cache) {
     const encoded = c1 + c2 + c3 + c4 + c5;
-    cache = JSON.parse(gunzipSync(Buffer.from(encoded, "base64")).toString("utf8"));
+    cache = JSON.parse(gunzipSync(Buffer.from(encoded, "base64")).toString("utf8")) as any[];
   }
-  return cache;
+  return cache!;
 }
