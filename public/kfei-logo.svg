@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" role="img" aria-labelledby="title desc">
+<title id="title">Korea Fintech Entry Intelligence</title>
+<desc id="desc">Gateway, growth bars and orbit mark with Korea Fintech Entry Intelligence wordmark.</desc>
+<defs>
+  <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#7DD3FC"/>
+    <stop offset=".55" stop-color="#2563EB"/>
+    <stop offset="1" stop-color="#0B4A8B"/>
+  </linearGradient>
+  <linearGradient id="red" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FF6B6B"/>
+    <stop offset="1" stop-color="#E11D48"/>
+  </linearGradient>
+</defs>
+<g transform="translate(8 10)">
+  <path d="M42 77V25L86 2v71" fill="none" stroke="#F8FAFC" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+  <rect x="50" y="58" width="10" height="20" rx="2" fill="#7DD3FC"/>
+  <rect x="65" y="47" width="10" height="31" rx="2" fill="#3B82F6"/>
+  <rect x="80" y="34" width="10" height="44" rx="2" fill="#0EA5E9"/>
+  <path d="M13 86C38 101 81 98 112 69" fill="none" stroke="url(#blue)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M91 28c28 5 36 25 20 45" fill="none" stroke="url(#red)" stroke-width="9" stroke-linecap="round"/>
+</g>
+<g transform="translate(145 0)">
+  <text x="0" y="72" fill="#F8FAFC" font-family="Arial,Helvetica,sans-serif" font-size="48" font-weight="800">Korea</text>
+  <text x="145" y="72" fill="#E8EEF5" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="500">Fintech Entry Intelligence</text>
+</g>
+</svg>
